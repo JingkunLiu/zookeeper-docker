@@ -4,7 +4,6 @@ MAINTAINER Wurstmeister
 
 ENV ZOOKEEPER_VERSION 3.5.9
 
-https://downloads.apache.org/zookeeper/zookeeper-3.5.9/apache-zookeeper-3.5.9-bin.tar.gz
 
 #Download Zookeeper
 RUN wget -q https://downloads.apache.org/zookeeper/zookeeper-${ZOOKEEPER_VERSION}/zookeeper-${ZOOKEEPER_VERSION}.tar.gz \ 
